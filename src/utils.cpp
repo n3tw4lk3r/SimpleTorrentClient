@@ -41,8 +41,8 @@ std::string HexEncode(const std::string& input) {
     std::ostringstream ss;
     ss << std::hex << std::setfill('0');
 
-    for (unsigned char c : input) {
-        ss << std::setw(2) << static_cast<int>(c);
+    for (unsigned char ch : input) {
+        ss << std::setw(2) << static_cast<int>(ch);
     }
 
     return ss.str();
