@@ -1,0 +1,28 @@
+# CMake build directory
+/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Main.cpp file used for testing
+main.cpp
+
+# Executables and objects
+*.o
+*.obj
+*.so
+*.a
+*.exe
+*.out
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+*.user
