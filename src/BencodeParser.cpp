@@ -108,7 +108,7 @@ std::vector<std::string> BencodeParser::parseFile(const std::string& filename) {
     return parsed;
 }
 
-std::vector<std::string> BencodeParser::parseString(std::string str) {
+std::vector<std::string> BencodeParser::parseString(const std::string& str) {
     reset();
     toDecode = str;
     process();

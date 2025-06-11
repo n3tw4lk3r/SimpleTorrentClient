@@ -12,7 +12,7 @@ public:
     std::vector<std::string> parseFile(const std::string& filename);
 
     // Parses a raw bencoded string and returns the list of parsed tokens.
-    std::vector<std::string> parseString(std::string str);
+    std::vector<std::string> parseString(const std::string& str);
 
     // Returns SHA1 hash of the 'info' section.
     std::string getHash();
